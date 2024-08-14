@@ -1,0 +1,33 @@
+GENERAL
+101 : request body doesn't exist
+102 : missing authorazation Token
+103: missing email for verification
+104 : something went wrong with sending the email
+105: wrong verification code
+106: no verification code in database
+107: email verified
+108: email not verified
+109: missing email or verification code
+USERS - REGISTER
+201 : missing email or password or confirmPassword
+202: password and confirm password do not match
+203: email already in use
+210: user registered successfully
+212: email send successfully
+USERS - SIGNIN
+204: missing email or password
+205: invalid log in credentials
+209: sign in successfull
+USERS - AUTHORAZATION
+206 : token expired
+207 : unauthorized
+211: authorized
+USERS - FRIEND REQUESTS
+301 - missing senderid or receiverFriendCode
+302 - receiverFriendCode is not valid
+303 - senderid and receiverid are the same
+304 - friend request already send
+305 - users already friends
+310 - friend request successfull
+311 - friend added
+
